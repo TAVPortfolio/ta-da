@@ -1,0 +1,30 @@
+.checkroom {
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 387px;
+  }
+  &__title {
+    &-subtitle {
+      margin-bottom: 30px;
+    }
+  }
+  &__list {
+    list-style-type: none;
+    margin-bottom: 30px;
+
+  }
+  &__background {
+        max-width: 650px;
+    &-img {
+      width: 100%;
+    }
+  }
+}
